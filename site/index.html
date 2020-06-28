@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant site</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        id="header-nav"
+        class="navbar navbar-expand-md navbar-expand-lg navbar-light"
+      >
+        <div class="container">
+          <a href="index.html" class="d-none d-lg-block">
+            <img id="logo-img" class="float-left" src="pics/logotype2.png" />
+          </a>
+          <div class="navbar-brand">
+            <a href="index.html"><h1>site bruh stud</h1></a>
+            <p>
+              <img id="starpic" src="pics/star.png" />
+
+              <span>KSis Certified</span>
+            </p>
+          </div>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="nav-list" class="nav navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  ><span class="fa fa-cutlery"></span
+                  ><br class="d-none d-sm-block" />
+                  Menu</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  ><span class="fa fa-info-circle"></span
+                  ><br class="d-none d-sm-block" />About</a
+                >
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  ><span class="fa fa-certificate"></span
+                  ><br class="d-none d-sm-block" />Awards</a
+                >
+              </li>
+              <li id="phone" class="d-none d-md-block">
+                <a href=""><span>22813334527</span></a>
+                <div>* We Believe</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="js/JQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

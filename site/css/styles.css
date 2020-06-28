@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: Oxygen, sans-serif;
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border 0;
+}
+
+#logo-img {
+  width: 150px;
+  height: 150px;
+  margin: 0px 5px 0px 0px;
+}
+
+#starpic {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-brand h1 {
+  font-family: "Lora", sans-serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 25px;
+  margin-bottom: 0;
+  line-height: 0.75;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+
+.navbar-brand p span{
+  vertical-align: middle;
+}
+
+
+#nav-list a{
+  color: #951c49;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #e7e7e7;
+}
+#nav-list a span{
+  font-size: 1.8em;
+}
+
+
+#phone a{
+  margin-left: 20px;
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div{
+  color:#557c3e;
+  font-weight: 600;
+  text-align: right;
+  padding-top: 0px;
+  padding-right: 5px;
+}
+
+#header-nav .navbar-toggler{
+  border:  2px solid #61122f;
+  clear: both; 
+}
+
+
+
+@media(min-width: 1200px){
+
+}
+@media(min-width: 992px) and (max-width:1199px){
+  #logo-img{
+    width: 100px;
+    height: 100px;
+    
+  }
+  
+}
