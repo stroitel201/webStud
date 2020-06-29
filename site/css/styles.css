@@ -61,6 +61,7 @@ body {
 }
 #nav-list a span{
   font-size: 1.8em;
+  margin-bottom: 8px;
 }
 
 
@@ -68,6 +69,12 @@ body {
   margin-left: 20px;
   text-align: right;
   padding-bottom: 0;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+#phone a:hover{
+  text-decoration: none;
 }
 #phone div{
   color:#557c3e;
@@ -83,15 +90,70 @@ body {
 }
 
 
-
+.jumbotron{
+  margin-top: 32px;
+}
 @media(min-width: 1200px){
-
+  .jumbotron{
+    background: url(../pics/popech.jpg) no-repeat;
+    height:675px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+   
+  }
 }
 @media(min-width: 992px) and (max-width:1199px){
   #logo-img{
     width: 100px;
     height: 100px;
+  } 
+  .jumbotron{
+    background: url(../pics/popech992.jpg) no-repeat;
+    height:558px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+   
+  }
+}
+@media(min-width: 768px) and (max-width:991px){
+  .jumbotron{
+    background: url(../pics/popech768.jpg) no-repeat;
+    height:432px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
     
   }
-  
+}
+@media(max-width: 767px){
+  .jumbotron{
+    margin-top: 5px;
+    padding: 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
+  #navbarSupportedContent a{
+    font-size: 1.2em;
+  }
+  #navbarSupportedContent a span{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
+
+#call-btn > a{
+  font-size: 1.5em;
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #fff;
+  background-color: #f6b319;
+  color: #951c49;
+}
+#xs-believe{
+  margin-top: 5px;
+  font-size: .7em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
 }
